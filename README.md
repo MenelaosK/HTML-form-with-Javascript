@@ -6,4 +6,6 @@ The result page reads the form-data with a script and diplays them into the resu
 An example is shown below.
 
 
-![](https://github.com/MenelaosK/HTML-form-with-Javascript/blob/master/contact-form-results.png)
+<img src="https://github.com/MenelaosK/HTML-form-with-Javascript/blob/master/form1.png" width="750" height="520">
+<img src="https://github.com/MenelaosK/HTML-form-with-Javascript/blob/master/form2.png" width="750" height="520">
+<img src="https://github.com/MenelaosK/HTML-form-with-Javascript/blob/master/contact-form-results.png">
