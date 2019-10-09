@@ -1,0 +1,77 @@
+<html>
+	<head>
+		<meta charset="utf-8" /> 
+		<title>Contact Form</title>
+		
+		<style>
+			form{
+				border: 5px solid black;
+				padding-left: 10px; 
+				background: linear-gradient(white, #ffff99);
+			}
+			header{
+				padding: 6px;
+				color: white;
+				background-color: #2d5986;
+				text-align: center;
+				margin-bottom: 10px;
+    
+	
+			}
+		</style>
+	</head>
+	
+	<body>
+		<header>
+			<h1>Contact Form</h1>
+		</header>
+
+		<form id = "contactForm"  name = "contactForm" method ="get" action ="results.html" /> 
+			<h3>Please fill the form below:</h3>
+	
+
+			Full Name: <br/>
+		    <input type = "text" name ="clientName" maxlength="30" size="35" required />
+			<br/>
+			<br/>
+
+			Age (choose one):  <br/>
+				<label><input type="radio" name="hlikia" value="UPTO17" />Up to 17</label><br/> 
+				<label><input type="radio" name="hlikia" value="18TO30" />From 18 to 30 </label><br/>
+				<label><input type="radio" name="hlikia" value="31TO40" />From 31 to 40 </label><br/>
+				<label><input type="radio" name="hlikia" value="41TO55" />From 41 to 55 </label><br/>
+				<label><input type="radio" name="hlikia" value="56TO65" />From 56 to 65</label><br/>
+				<label><input type="radio" name="hlikia" value="66ORHIGHER" />66 or higher</label>
+				<br/>
+			<br/>
+			
+			You want information for(choose as many as you want):<br />
+				<input type="checkbox" name="info" value="hotels"  />Hotels<br/>
+				<input type="checkbox" name="info" value="museums" />Museums <br/>
+				<input type="checkbox" name="info" value="landmarks" />Landmarks <br/>
+				<input type="checkbox" name="info" value="restaurants"  />Restaurants<br/>
+				
+			<br/>
+				
+			For which area: <br/>
+			<select name="area" multiple size="4">
+					<option value="Macedonia" selected="selected">Macedonia</option>
+					<option value="Cyclades">Cyclades</option>
+					<option value="Thrace">Thrace</option>
+					<option value="Other">Other</option>
+			</select>
+			<br/>
+			<br/>
+			e-mail: <br/>
+		    <input type = "email" name ="email" maxlength="30" size="35" required />
+			<br/>
+			
+			<p>
+				<input type="submit" name="button1" value="Sumbit and show data">
+				<input type="reset" id ="Reset the Form" name ="Reset the Form" value="Clear" />
+				
+				
+			</p>
+		</form>
+	</body>
+</html>
